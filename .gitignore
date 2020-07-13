@@ -1,3 +1,6 @@
+##################
+# FPGA / Quartus #
+##################
 fpga/.qsys_edit/
 fpga/hps_isw_handoff/
 fpga/hps_sdram_p0_summary.csv
@@ -34,3 +37,15 @@ fpga/*.ddb
 fpga/*.stp
 fpga/*.dpf
 fpga/*.qdf
+
+##################
+# Distro / Yocto #
+##################
+
+distro/build_*/
+distro/bb_cache/
+
+# Repositories
+distro/meta-altera/
+distro/meta-openembedded/
+distro/poky/
